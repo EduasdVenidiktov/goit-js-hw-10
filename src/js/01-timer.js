@@ -90,7 +90,7 @@ const options = {
         timeout: 3000,
         zindex: 999,
         close: false,
-        iconUrl: '../img/highlight_off_black_24dp.svg',
+        iconUrl: '../partials/highlight_off_black_24dp.svg',
       });
 
       if (!timerStarted) {
