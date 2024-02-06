@@ -1,0 +1,37 @@
+body {
+  width: 200px;
+}
+
+.form {
+  margin-left: 100px;
+  margin-top: 10px;
+  flex-direction: column;
+
+  align-items: flex-start; /* Вирівнювання по лівому краю */
+}
+
+input[type='number' i] {
+  height: 28px;
+  width: 210px;
+}
+
+button {
+  margin-top: 10px;
+  width: 220px;
+  height: 32px;
+}
+
+fieldset {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+fieldset label {
+  display: inline-flex; /* Розташування радіокнопки та тексту в лінію */
+  align-items: center; /* Вирівнювання по вертикалі по центру */
+  margin-right: 20px; /* Відступ між радіокнопками */
+}
+
+label {
+}

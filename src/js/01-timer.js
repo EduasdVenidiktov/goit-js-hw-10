@@ -12,7 +12,6 @@ const spanDays = document.querySelector('[data-days]');
 const spanHours = document.querySelector('[data-hours]');
 const spanMinutes = document.querySelector('[data-minutes]');
 const spanSeconds = document.querySelector('[data-seconds]');
-const divTimer = document.querySelector('.timer');
 
 function convertMs(ms) {
   const second = 1000;
